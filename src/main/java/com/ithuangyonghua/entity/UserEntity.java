@@ -1,5 +1,9 @@
 package com.ithuangyonghua.entity;
-
+/**
+ * 用户实体类
+ * @author Hyh
+ *
+ */
 public class UserEntity {
 	private String name;
 	private String password;

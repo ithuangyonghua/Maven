@@ -7,7 +7,11 @@ import java.sql.SQLException;
 
 import com.ithuangyonghua.entity.UserEntity;
 import com.ithuangyonghua.utils.DBUtils;
-
+/**
+ * 用户Dao
+ * @author Hyh
+ *
+ */
 public class UserDao extends DBUtils {
 
 	// 查询用户已注册

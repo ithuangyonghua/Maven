@@ -32,6 +32,7 @@
     user.setPassword(mima);
     if(userDao.login(user))
     {
+    	session.setAttribute("login_user", name);
     	response.sendRedirect("index.jsp");
     }
     else
